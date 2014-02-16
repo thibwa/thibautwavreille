@@ -1,11 +1,11 @@
 <!-- a low-tech hack for pre-loading the images -->
 <div class="preload" style="overflow: hidden; width: 0px; height: 0px">
-	<img src="images/projects/responsive/site1.jpg" />
-	<img src="images/projects/responsive/site2.jpg" />
-	<img src="images/projects/responsive/site3.jpg" />
-	<img src="images/projects/responsive/site3r.jpg" />
-	<img src="images/projects/responsive/site4.jpg" />
-	<img src="images/projects/responsive/site4r.jpg" />
+	<img src="images/projects/investporc_Fotor.jpg" />
+	<img src="images/projects/investporc_Fotor.jpg" />
+	<img src="images/projects/responsive/investporc_tablete_portrait_Fotor.jpg" />
+	<img src="images/projects/responsive/investporc_tablete_landscape_Fotor.jpg" />
+	<img src="images/projects/responsive/investporc_gsm_portrait_Fotor.jpg" />
+	<img src="images/projects/responsive/investporc_gsm_landscape_Fotor.jpg" />
 </div>
 
 <!-- Device Image -->
@@ -15,7 +15,7 @@
 			<div class="md-slider">
 				<div class="md-device-wrapper">
 					<div class="md-device md-device-1">
-						<a href="javascript:;"><img src="images/projects/responsive/site1.jpg" /></a>
+						<a href="javascript:;"><img src="images/projects/investporc_Fotor.jpg" /></a>
 						<div class="md-border-element"></div>
 						<div class="md-base-element"></div>
 					</div>
@@ -32,10 +32,10 @@
 			autoplay : true,
 			interval : 3000,
 			devices : [ 
-				{ cName : 'md-device-1', canRotate : false, imgsrc : 'images/projects/responsive/site1.jpg' },
-				{ cName : 'md-device-2', canRotate : false, imgsrc : 'images/projects/responsive/site2.jpg' },
-				{ cName : 'md-device-3', canRotate : true, imgsrc : 'images/projects/responsive/site3.jpg', rotatedsrc : 'images/projects/responsive/site3r.jpg' },
-				{ cName : 'md-device-4', canRotate : true, imgsrc : 'images/projects/responsive/site4.jpg', rotatedsrc : 'images/projects/responsive/site4r.jpg' }
+				{ cName : 'md-device-1', canRotate : false, imgsrc : 'images/projects/investporc_Fotor.jpg' },
+				{ cName : 'md-device-2', canRotate : false, imgsrc : 'images/projects/investporc_Fotor.jpg' },
+				{ cName : 'md-device-3', canRotate : true, imgsrc : 'images/projects/responsive/investporc_tablete_portrait_Fotor.jpg', rotatedsrc : 'images/projects/responsive/investporc_tablete_landscape_Fotor.jpg' },
+				{ cName : 'md-device-4', canRotate : true, imgsrc : 'images/projects/responsive/investporc_gsm_portrait_Fotor.jpg', rotatedsrc : 'images/projects/responsive/investporc_gsm_landscape_Fotor.jpg' }
 			]
 		},
 		devicesTotal = settings.devices.length,

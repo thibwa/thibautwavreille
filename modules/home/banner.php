@@ -6,16 +6,19 @@
 		<div class="viewer">
 			<div class="reel">
 				<div class="slide">
-					<a class="link" href="#">Full story ...</a>
-					<img src="images/pic01.jpg" alt="Alpinistes arboricoles" />
+					<a href="http://www.alpinistesarboricoles.be" target="_blank">
+                        <img src="images/projects/Alpiniste arboricole_Fotor.jpg" alt="Alpinistes arboricoles" />
+                    </a>
 				</div>
 				<div class="slide">
-					<a class="link" href="#">Full story ...</a>
-					<img src="images/pic02.jpg" alt="Investporc CRA-W" />
+                    <a href="http://www.guillaumerase.be" target="_blank">
+                        <img src="images/projects/guillaumeRase_Fotor.jpg" alt="Guillaume Rase - coureur cycliste" />
+                    </a>
 				</div>
 				<div class="slide">
-					<a class="link" href="#">Full story ...</a>
-					<img src="images/pic03.jpg" alt="Guillaume Rase - coureur cycliste" />
+                    <a href="http://demo.investporc.cra.wallonie.be" target="_blank">
+					    <img src="images/projects/investporc_Fotor.jpg" alt="Investporc CRA-W" />
+                    </a>
 				</div>
 			</div>
 		</div>
