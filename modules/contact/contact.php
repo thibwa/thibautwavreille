@@ -7,14 +7,41 @@
 				<h2>Contact</h2>
 			</header>
 
-			<form method="post" action="#">
+            <?php
+                if($_POST["name"] != "" && $_POST["email"] != ""){
+                     $to = "wavreille.thibaut@gmail.com";
+                     $subject = "Thibaut Wavreille - contact mail - ".$_POST["name"];
+                     $header = "From: ".$_POST["email"]."\n";
+                     $header.= "Reply-to: ".$_POST["email"]."\n";
+                     $body = $_POST["message"];
+
+                     if (mail($to, $subject, $body, $header)) {
+             ?>
+                        <div id="notification" class="alert alert-success">
+                            Le message a bien été envoyé.
+                        </div>
+                        <?php
+                     } else {
+                     ?>
+                        <div id="notification" class="alert alert-danger">
+                            Erreur dans l'envoie du message.<br/>
+                            Veuillez, tout d'abord, vérifier les informations que vous avez rentrées.<br/>
+                            En cas de répitions de cette erreur, veuillez contacter l'administrateur par mail :
+                            <strong><a href="mailto:wavreille.thibaut@gmail.com" id="MailSite" target="_blank">Wavreille Thibaut</a></strong>
+                        </div>
+                        <?php
+                    }
+                 }
+            ?>
+
+			<form method="post" id="contactForm" onsubmit="verifForm(this)">
 				<div class="5grid">
 					<div class="row half">
 						<div class="6u">
-							<input type="text" name="name" id="name" placeholder="Name" />
+							<input type="text" name="name" id="name" onblur="verifName(this)" placeholder="Name" />
 						</div>
 						<div class="6u">
-							<input type="text" name="email" id="email" placeholder="Email" />
+							<input type="text" name="email" id="email" onblur="verifMail(this)" placeholder="Email" />
 						</div>
 					</div>
 					<div class="row half">
@@ -24,8 +51,10 @@
 					</div>
 					<div class="row half">
 						<div class="12u">
-							<a href="#" class="button big">Send Message</a>
-							<a href="#" class="button big alt">Clear Form</a>
+                            <button class="button big" type="submit">Submit</button>
+                            <button class="button big alt" type="button" onclick="$('#contactForm').trigger('reset');">
+                                Clear Form
+                            </button>
 						</div>
 					</div>
 				</div>

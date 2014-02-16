@@ -36,6 +36,7 @@
 <script src="js/menu.js"></script>
 <script src="js/modernizr.custom.js"></script>
 <script src="js/morphingdevice.js"></script>
+<script src="js/contact.js"></script>
 		
 <noscript>
 	<link rel="stylesheet" href="css/skel-noscript.css" />
