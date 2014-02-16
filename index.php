@@ -34,7 +34,7 @@
 				?>
 			</div>
 		</section>
-		
+
 		<section id="folio">
 			<div class="container">
 				<?php include('modules/folio.php'); 	?>
