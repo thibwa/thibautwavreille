@@ -24,6 +24,9 @@
 			<div class="container">
 				<?php
 					switch($_GET["p"]){
+					    case "confluence":
+							include('modules/confluence/confluence.php');
+							break;
 						case "contact":
 							include('modules/contact/contact.php');
 							break;
