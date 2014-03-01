@@ -101,26 +101,33 @@
 		<div class="6u">
 			<section>
 				<header>
-					<h2>Fusce tincidunt augue ligula quis</h2>
+                    <h2>
+                        <img src="images/projects/investporc/cochoncoul02.png" alt=""/>
+                        Analysez la viabilité de votre projet
+                    </h2>
 				</header>
 				<p>
-					Praesent porta accumsan orci, nec mollis sapien elementum nec. Praesent 
-					vitae lementum dui, eget rutrum 
-					lorem. Donec augue dui, iaculis vitae metus vel, adipiscing porta dolor. 
-					Fusce odio mauris, luctus in dignissim vitae metus
-				</p>
+					L'outil permet de calculer le montant des investissements
+					à consentir pour votre projet et le revenu espéré de l'activité.
+		        </p>
 			</section>
 		</div>
 		
 		<div class="6u">
 			<section>
 				<header>
-					<h2>Donec vulputate augue vel congue</h2>
+                    <h2>
+                        <img src="images/projects/investporc/cochon-prof-coul02.png" alt=""/>
+                        Outil simple et complet
+                    </h2>
 				</header>
 				<p>
-					Quisque hendrerit nunc a est volutpat, vitae molestie lacus euismod. 
-					Nunc pharetra vulputate neque quis convallis. Fusce aliquam lacus at hendrerit 
-					molestie. Vivamus quis sem at urna iaculis cursus. Suspendisse cursus tempor viverra nteger
+					En quelques clics, cet outil vous aidera à chiffrer votre projet.
+				</p>
+				<hr/>
+				<p>
+				    <a href="http://demo.investporc.cra.wallonie.be" target="_blank" class="icon icon-link"> Demo InvestPorc</a><br/>
+                    <a href="https://github.com/thibwa/investporc/" target="_blank" class="icon icon-github"> Suivez l'avancement d'InvestPorc sur GitHub</a>
 				</p>
 			</section>
 		</div>

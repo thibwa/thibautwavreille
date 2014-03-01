@@ -25,8 +25,8 @@
 	</div>
 
 	<header>
-		<h2>Mucerat Leonros Cito Suere Nuctuset Ultrices Cosuere Aubilia Curae</h2>
-		<span>Lorem donec augue dui iaculis vitae metus vel adipiscing porta magna</span>
+		<h2>Le projet est le brouillon de l'avenir. Parfois, il faut à l'avenir des centaines de brouillons.</h2>
+		<span>Jules Renard</span>
 	</header>
 
 </div>
