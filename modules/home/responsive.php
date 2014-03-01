@@ -6,6 +6,18 @@
 	<img src="images/projects/responsive/investporc_tablete_landscape_Fotor.jpg" />
 	<img src="images/projects/responsive/investporc_gsm_portrait_Fotor.jpg" />
 	<img src="images/projects/responsive/investporc_gsm_landscape_Fotor.jpg" />
+	<img src="images/projects/investporc/tablet/IMG_0027.png" />
+	<img src="images/projects/investporc/tablet/IMG_0028.png" />
+	<img src="images/projects/investporc/tablet/IMG_0029.png" />
+	<img src="images/projects/investporc/tablet/IMG_0030.png" />
+	<img src="images/projects/investporc/tablet/IMG_0031.png" />
+	<img src="images/projects/investporc/tablet/IMG_0032.png" />
+	<img src="images/projects/investporc/phone/IMG_0033.png" />
+	<img src="images/projects/investporc/phone/IMG_0034.png" />
+	<img src="images/projects/investporc/phone/IMG_0035.png" />
+	<img src="images/projects/investporc/phone/IMG_0036.png" />
+	<img src="images/projects/investporc/phone/IMG_0037.png" />
+	<img src="images/projects/investporc/phone/IMG_0038.png" />
 </div>
 
 <!-- Device Image -->
@@ -35,7 +47,19 @@
 				{ cName : 'md-device-1', canRotate : false, imgsrc : 'images/projects/investporc_Fotor.jpg' },
 				{ cName : 'md-device-2', canRotate : false, imgsrc : 'images/projects/investporc_Fotor.jpg' },
 				{ cName : 'md-device-3', canRotate : true, imgsrc : 'images/projects/responsive/investporc_tablete_portrait_Fotor.jpg', rotatedsrc : 'images/projects/responsive/investporc_tablete_landscape_Fotor.jpg' },
-				{ cName : 'md-device-4', canRotate : true, imgsrc : 'images/projects/responsive/investporc_gsm_portrait_Fotor.jpg', rotatedsrc : 'images/projects/responsive/investporc_gsm_landscape_Fotor.jpg' }
+				{ cName : 'md-device-3', canRotate : false, imgsrc : 'images/projects/investporc/tablet/IMG_0027.png' },
+				{ cName : 'md-device-3', canRotate : false, imgsrc : 'images/projects/investporc/tablet/IMG_0028.png' },
+				{ cName : 'md-device-3', canRotate : false, imgsrc : 'images/projects/investporc/tablet/IMG_0029.png' },
+				{ cName : 'md-device-3', canRotate : false, imgsrc : 'images/projects/investporc/tablet/IMG_0030.png' },
+				{ cName : 'md-device-3', canRotate : false, imgsrc : 'images/projects/investporc/tablet/IMG_0031.png' },
+				{ cName : 'md-device-3', canRotate : false, imgsrc : 'images/projects/investporc/tablet/IMG_0032.png' },
+				{ cName : 'md-device-4', canRotate : true, imgsrc : 'images/projects/responsive/investporc_gsm_portrait_Fotor.jpg', rotatedsrc : 'images/projects/responsive/investporc_gsm_landscape_Fotor.jpg' },
+				{ cName : 'md-device-4', canRotate : false, imgsrc : 'images/projects/investporc/phone/IMG_0033.png' },
+				{ cName : 'md-device-4', canRotate : false, imgsrc : 'images/projects/investporc/phone/IMG_0034.png' },
+				{ cName : 'md-device-4', canRotate : false, imgsrc : 'images/projects/investporc/phone/IMG_0035.png' },
+				{ cName : 'md-device-4', canRotate : false, imgsrc : 'images/projects/investporc/phone/IMG_0036.png' },
+				{ cName : 'md-device-4', canRotate : false, imgsrc : 'images/projects/investporc/phone/IMG_0037.png' },
+				{ cName : 'md-device-4', canRotate : false, imgsrc : 'images/projects/investporc/phone/IMG_0038.png' },
 			]
 		},
 		devicesTotal = settings.devices.length,
