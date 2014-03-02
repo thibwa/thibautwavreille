@@ -19,3 +19,9 @@
 	</div>
 </section>
 <!-- /Copyright -->
+
+<script type="text/javascript">stLight.options({publisher: "308e5267-a980-448b-849c-e48a140b2ed1", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<script>
+var options={ "publisher": "308e5267-a980-448b-849c-e48a140b2ed1", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "googleplus", "tumblr"]}};
+var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+</script>

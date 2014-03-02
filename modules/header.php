@@ -37,6 +37,11 @@
 <script src="js/modernizr.custom.js"></script>
 <script src="js/morphingdevice.js"></script>
 <script src="js/contact.js"></script>
+<script src="js/folio.js"></script>
+<script src="js/date.format.js"></script>
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
 		
 <noscript>
 	<link rel="stylesheet" href="css/skel-noscript.css" />
